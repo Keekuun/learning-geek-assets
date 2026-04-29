@@ -1388,6 +1388,150 @@
         "files": {
           "html": "99-React Native/00丨学习 React Native（geektime_RN）.html"
         }
+      },
+      {
+        "id": "99-React Native/01｜学习 React Native，你需要掌握哪些知识？",
+        "title": "01｜学习 React Native，你需要掌握哪些知识？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/01｜学习 React Native，你需要掌握哪些知识？.mp3",
+          "pdf": "99-React Native/01｜学习 React Native，你需要掌握哪些知识？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/02｜Component：搭建静态页面的正确思路是什么？",
+        "title": "02｜Component：搭建静态页面的正确思路是什么？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/02｜Component：搭建静态页面的正确思路是什么？.mp3",
+          "pdf": "99-React Native/02｜Component：搭建静态页面的正确思路是什么？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/03｜Style：关于样式你需要知道的三件事",
+        "title": "03｜Style：关于样式你需要知道的三件事",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/03｜Style：关于样式你需要知道的三件事.mp3",
+          "pdf": "99-React Native/03｜Style：关于样式你需要知道的三件事.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/04｜State：如何让页面“动”起来？",
+        "title": "04｜State：如何让页面“动”起来？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/04｜State：如何让页面“动”起来？.mp3",
+          "pdf": "99-React Native/04｜State：如何让页面“动”起来？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/05｜Image：选择适合你的图片加载方式",
+        "title": "05｜Image：选择适合你的图片加载方式",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/05｜Image：选择适合你的图片加载方式.mp3",
+          "pdf": "99-React Native/05｜Image：选择适合你的图片加载方式.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/06｜Pressable：如何实现一个体验好的点按组件？",
+        "title": "06｜Pressable：如何实现一个体验好的点按组件？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/06｜Pressable：如何实现一个体验好的点按组件？.mp3",
+          "pdf": "99-React Native/06｜Pressable：如何实现一个体验好的点按组件？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/07｜TextInput：如何实现一个体验好的输入框？",
+        "title": "07｜TextInput：如何实现一个体验好的输入框？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/07｜TextInput：如何实现一个体验好的输入框？.mp3",
+          "pdf": "99-React Native/07｜TextInput：如何实现一个体验好的输入框？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/08｜List：如何实现高性能的无限列表？",
+        "title": "08｜List：如何实现高性能的无限列表？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/08｜List：如何实现高性能的无限列表？.mp3",
+          "pdf": "99-React Native/08｜List：如何实现高性能的无限列表？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/09｜Fast Refresh：提高 UI 调试效率神器",
+        "title": "09｜Fast Refresh：提高 UI 调试效率神器",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/09｜Fast Refresh：提高 UI 调试效率神器.mp3",
+          "pdf": "99-React Native/09｜Fast Refresh：提高 UI 调试效率神器.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/10｜Debug：解决 BUG 思路有哪些？",
+        "title": "10｜Debug：解决 BUG 思路有哪些？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/10｜Debug：解决 BUG 思路有哪些？.mp3",
+          "pdf": "99-React Native/10｜Debug：解决 BUG 思路有哪些？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/11｜组件实战：如何实现瀑布流？",
+        "title": "11｜组件实战：如何实现瀑布流？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/11｜组件实战：如何实现瀑布流？.mp3",
+          "pdf": "99-React Native/11｜组件实战：如何实现瀑布流？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/12｜页面实战：如何搭建一个电商首页？",
+        "title": "12｜页面实战：如何搭建一个电商首页？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/12｜页面实战：如何搭建一个电商首页？.mp3",
+          "pdf": "99-React Native/12｜页面实战：如何搭建一个电商首页？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/13｜生态：React Native Awesome",
+        "title": "13｜生态：React Native Awesome",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/13｜生态：React Native Awesome.mp3",
+          "pdf": "99-React Native/13｜生态：React Native Awesome.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/14｜Reanimated：如何让动画变得更流畅？",
+        "title": "14｜Reanimated：如何让动画变得更流畅？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/14｜Reanimated：如何让动画变得更流畅？.mp3",
+          "pdf": "99-React Native/14｜Reanimated：如何让动画变得更流畅？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/15｜Gesture（上）：如何实现一个拖拽动效？",
+        "title": "15｜Gesture（上）：如何实现一个拖拽动效？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/15｜Gesture（上）：如何实现一个拖拽动效？.mp3",
+          "pdf": "99-React Native/15｜Gesture（上）：如何实现一个拖拽动效？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/16｜Gesture（中）：如何解决单视图多手势的冲突问题？",
+        "title": "16｜Gesture（中）：如何解决单视图多手势的冲突问题？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/16｜Gesture（中）：如何解决单视图多手势的冲突问题？.mp3",
+          "pdf": "99-React Native/16｜Gesture（中）：如何解决单视图多手势的冲突问题？.pdf"
+        }
       }
     ]
   }

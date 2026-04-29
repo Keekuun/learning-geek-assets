@@ -17,6 +17,44 @@ function sortEntries(items) {
   });
 }
 
+function addFilesToFolderNode({ folderNode, relativePath, files }) {
+  const extToKey = {
+    '.html': 'html',
+    '.pdf': 'pdf',
+    '.mp3': 'mp3',
+  };
+
+  const chapterOrder = [];
+  const chapterMap = new Map();
+
+  for (const file of files) {
+    const ext = path.extname(file.name).toLowerCase();
+    const key = extToKey[ext];
+    if (!key) continue;
+
+    const rawStem = file.name.slice(0, -ext.length);
+    const stem = rawStem.replace(/\(\d+\)$/, '');
+    if (!chapterMap.has(stem)) {
+      chapterMap.set(stem, { files: {} });
+      chapterOrder.push(stem);
+    }
+
+    const chapter = chapterMap.get(stem);
+    if (!chapter.files[key]) {
+      chapter.files[key] = file.url;
+    }
+  }
+
+  for (const stem of chapterOrder) {
+    const chapter = chapterMap.get(stem);
+    folderNode.children.push({
+      id: path.join(relativePath, stem).split(path.sep).join('/'),
+      title: stem,
+      type: 'chapter',
+      files: chapter.files,
+    });
+  }
+}
 function buildCatalogFromDocsRoot() {
   if (!fs.existsSync(docsRootDir)) {
     console.log('No docs directory found at ./docs. Skipping catalog generation.');
@@ -24,12 +62,6 @@ function buildCatalogFromDocsRoot() {
   }
 
   const catalog = [];
-
-  const extToKey = {
-    '.html': 'html',
-    '.pdf': 'pdf',
-    '.mp3': 'mp3',
-  };
 
   const courseDirs = sortEntries(
     fs
@@ -48,8 +80,7 @@ function buildCatalogFromDocsRoot() {
 
   const readDirToCatalog = (dir, relativePath, parentNode) => {
     const items = sortEntries(fs.readdirSync(dir));
-    const chapterOrder = [];
-    const chapterMap = new Map();
+    const files = [];
 
     for (const item of items) {
       if (item === '.DS_Store') continue;
@@ -68,33 +99,13 @@ function buildCatalogFromDocsRoot() {
         continue;
       }
 
-      const ext = path.extname(item).toLowerCase();
-      if (!ext) continue;
-      const key = extToKey[ext];
-      if (!key) continue;
-
-      const rawStem = item.slice(0, -ext.length);
-      const stem = rawStem.replace(/\(\d+\)$/, '');
-      if (!chapterMap.has(stem)) {
-        chapterMap.set(stem, { files: {} });
-        chapterOrder.push(stem);
-      }
-
-      const chapter = chapterMap.get(stem);
-      if (!chapter.files[key]) {
-        chapter.files[key] = path.join(relativePath, item).split(path.sep).join('/');
-      }
-    }
-
-    for (const stem of chapterOrder) {
-      const chapter = chapterMap.get(stem);
-      parentNode.children.push({
-        id: path.join(relativePath, stem).split(path.sep).join('/'),
-        title: stem,
-        type: 'chapter',
-        files: chapter.files,
+      files.push({
+        name: item,
+        url: path.join(relativePath, item).split(path.sep).join('/'),
       });
     }
+
+    addFilesToFolderNode({ folderNode: parentNode, relativePath, files });
   };
 
   for (const courseName of courseDirs) {
