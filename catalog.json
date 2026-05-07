@@ -1382,14 +1382,6 @@
     "type": "folder",
     "children": [
       {
-        "id": "99-React Native/00丨学习 React Native（geektime_RN）",
-        "title": "00丨学习 React Native（geektime_RN）",
-        "type": "chapter",
-        "files": {
-          "html": "99-React Native/00丨学习 React Native（geektime_RN）.html"
-        }
-      },
-      {
         "id": "99-React Native/01｜学习 React Native，你需要掌握哪些知识？",
         "title": "01｜学习 React Native，你需要掌握哪些知识？",
         "type": "chapter",
