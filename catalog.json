@@ -1524,6 +1524,186 @@
           "mp3": "99-React Native/16｜Gesture（中）：如何解决单视图多手势的冲突问题？.mp3",
           "pdf": "99-React Native/16｜Gesture（中）：如何解决单视图多手势的冲突问题？.pdf"
         }
+      },
+      {
+        "id": "99-React Native/17｜Gesture（下）：如何解决多视图多手势的冲突问题？",
+        "title": "17｜Gesture（下）：如何解决多视图多手势的冲突问题？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/17｜Gesture（下）：如何解决多视图多手势的冲突问题？.mp3",
+          "pdf": "99-React Native/17｜Gesture（下）：如何解决多视图多手势的冲突问题？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/18｜Navigation：页面之间怎么跳转？",
+        "title": "18｜Navigation：页面之间怎么跳转？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/18｜Navigation：页面之间怎么跳转？.mp3",
+          "pdf": "99-React Native/18｜Navigation：页面之间怎么跳转？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/19｜Redux：大型应用应该如何管理状态？",
+        "title": "19｜Redux：大型应用应该如何管理状态？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/19｜Redux：大型应用应该如何管理状态？.mp3",
+          "pdf": "99-React Native/19｜Redux：大型应用应该如何管理状态？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/20｜Sentry：线上错误与性能监控怎么处理？",
+        "title": "20｜Sentry：线上错误与性能监控怎么处理？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/20｜Sentry：线上错误与性能监控怎么处理？.mp3",
+          "pdf": "99-React Native/20｜Sentry：线上错误与性能监控怎么处理？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/21｜混合应用：如何从零开始集成 React Native？",
+        "title": "21｜混合应用：如何从零开始集成 React Native？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/21｜混合应用：如何从零开始集成 React Native？.mp3",
+          "pdf": "99-React Native/21｜混合应用：如何从零开始集成 React Native？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/22｜自定义组件：如何满足业务的个性化需求？",
+        "title": "22｜自定义组件：如何满足业务的个性化需求？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/22｜自定义组件：如何满足业务的个性化需求？.mp3",
+          "pdf": "99-React Native/22｜自定义组件：如何满足业务的个性化需求？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/23｜热更新：如何搭建一个热更新平台？",
+        "title": "23｜热更新：如何搭建一个热更新平台？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/23｜热更新：如何搭建一个热更新平台？.mp3",
+          "pdf": "99-React Native/23｜热更新：如何搭建一个热更新平台？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/24｜拆包：Metro 拆包的工作原理是什么？",
+        "title": "24｜拆包：Metro 拆包的工作原理是什么？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/24｜拆包：Metro 拆包的工作原理是什么？.mp3",
+          "pdf": "99-React Native/24｜拆包：Metro 拆包的工作原理是什么？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/25｜性能优化：如何设计一个合适的性能优化方案？",
+        "title": "25｜性能优化：如何设计一个合适的性能优化方案？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/25｜性能优化：如何设计一个合适的性能优化方案？.mp3",
+          "pdf": "99-React Native/25｜性能优化：如何设计一个合适的性能优化方案？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/26｜客户端优化：如何把性能提升到极致？",
+        "title": "26｜客户端优化：如何把性能提升到极致？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/26｜客户端优化：如何把性能提升到极致？.mp3",
+          "pdf": "99-React Native/26｜客户端优化：如何把性能提升到极致？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/27｜跨端的机遇：小程序、Flutter和React Native原理对比",
+        "title": "27｜跨端的机遇：小程序、Flutter和React Native原理对比",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/27｜跨端的机遇：小程序、Flutter和React Native原理对比.mp3",
+          "pdf": "99-React Native/27｜跨端的机遇：小程序、Flutter和React Native原理对比.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/28｜追本溯源：从第一版 React Native 开始学会读懂源码",
+        "title": "28｜追本溯源：从第一版 React Native 开始学会读懂源码",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/28｜追本溯源：从第一版 React Native 开始学会读懂源码.mp3",
+          "pdf": "99-React Native/28｜追本溯源：从第一版 React Native 开始学会读懂源码.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/29｜弄清现状：新架构预览版究竟长什么样？",
+        "title": "29｜弄清现状：新架构预览版究竟长什么样？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/29｜弄清现状：新架构预览版究竟长什么样？.mp3",
+          "pdf": "99-React Native/29｜弄清现状：新架构预览版究竟长什么样？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/30｜JavaScript 引擎：双向通讯底层原理是什么？",
+        "title": "30｜JavaScript 引擎：双向通讯底层原理是什么？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/30｜JavaScript 引擎：双向通讯底层原理是什么？.mp3",
+          "pdf": "99-React Native/30｜JavaScript 引擎：双向通讯底层原理是什么？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/31｜多线程：RN底层是如何保障交互体验的？",
+        "title": "31｜多线程：RN底层是如何保障交互体验的？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/31｜多线程：RN底层是如何保障交互体验的？.mp3",
+          "pdf": "99-React Native/31｜多线程：RN底层是如何保障交互体验的？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/32｜Fabric：新渲染器的演进之路",
+        "title": "32｜Fabric：新渲染器的演进之路",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/32｜Fabric：新渲染器的演进之路.mp3",
+          "pdf": "99-React Native/32｜Fabric：新渲染器的演进之路.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/开篇词｜为什么要选择 React Native 做你的跨端方案？",
+        "title": "开篇词｜为什么要选择 React Native 做你的跨端方案？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/开篇词｜为什么要选择 React Native 做你的跨端方案？.mp3",
+          "pdf": "99-React Native/开篇词｜为什么要选择 React Native 做你的跨端方案？.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/总结与展望｜新架构探索之旅，马上开始",
+        "title": "总结与展望｜新架构探索之旅，马上开始",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/总结与展望｜新架构探索之旅，马上开始.mp3",
+          "pdf": "99-React Native/总结与展望｜新架构探索之旅，马上开始.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/直播加餐｜七年，我的跨端实践和探索",
+        "title": "直播加餐｜七年，我的跨端实践和探索",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/直播加餐｜七年，我的跨端实践和探索.mp3",
+          "pdf": "99-React Native/直播加餐｜七年，我的跨端实践和探索.pdf"
+        }
+      },
+      {
+        "id": "99-React Native/阶段测试｜React Native的这些核心知识，你都掌握了吗？",
+        "title": "阶段测试｜React Native的这些核心知识，你都掌握了吗？",
+        "type": "chapter",
+        "files": {
+          "mp3": "99-React Native/阶段测试｜React Native的这些核心知识，你都掌握了吗？.mp3",
+          "pdf": "99-React Native/阶段测试｜React Native的这些核心知识，你都掌握了吗？.pdf"
+        }
       }
     ]
   }
